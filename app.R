@@ -7,6 +7,7 @@ library(ggplot2)
 library(lubridate)
 library(stringr)
 library(shinyWidgets)
+library(curl)
 
 gyms_tbl <- fromJSON("gyms.json") %>% as_tibble()
 
@@ -92,10 +93,10 @@ server <- function(input, output) {
         n_days_back <- input$n_days_back
 
         selected_gym_counter_history() %>%
-            ggplot(aes(x = accessed_at_local, y = pct_of_capacity, color = pct_of_capacity)) +
-            geom_line(size = 5, lineend="round") +
-            scale_color_viridis_c(option = 'inferno') +
-            # geom_area(fill = "#07bab1") +
+            ggplot(aes(x = accessed_at_local, y = pct_of_capacity)) +
+            # geom_line(size = 5, lineend="round") +
+            # scale_color_viridis_c(option = 'inferno') +
+            geom_area(fill = "#07bab1") +
             xlab('Date') +
             scale_x_datetime(limits = c(latest_accessed_at_local - days(n_days_back), latest_accessed_at_local), date_labels = '%b %d, %H%p') +
             ylab('Percent of Capacity') +
@@ -118,11 +119,11 @@ server <- function(input, output) {
                 ),
                 time_of_day = ymd_hm(glue("1993-12-07 {time_of_day_str}"))
             ) %>%
-            ggplot(aes(x = time_of_day, y = mean_pct_of_capacity, color = mean_pct_of_capacity)) +
-            geom_line(size = 5, lineend="round") +
-            scale_color_viridis_c(option = 'inferno') +
+            ggplot(aes(x = time_of_day, y = mean_pct_of_capacity)) +
+            # geom_line(size = 5, lineend="round") +
+            # scale_color_viridis_c(option = 'inferno') +
             # scale_color_brewer(palette = "RdYlGn") +
-            # geom_area(fill = "#07bab1") +
+            geom_area(fill = "#07bab1") +
             xlab('Time') +
             scale_x_datetime(date_labels = "%H:%M", breaks = '30 min') +
             ylab('Percent of Capacity') +
