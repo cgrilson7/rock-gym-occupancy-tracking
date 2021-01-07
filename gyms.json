@@ -3,12 +3,14 @@
         "gym": "Evo",
         "city": "Portland",
         "state": "ME",
-        "id": "e758e0e391200c87c7bea411f033aab2"
+        "id": "e758e0e391200c87c7bea411f033aab2",
+        "local_tz": "America/New_York"
     },
     {
         "gym": "Salt Pump",
         "city": "Scarborough",
         "state": "ME",
-        "id": "8490bc5e774d0034d09420df23a224b9"
+        "id": "8490bc5e774d0034d09420df23a224b9",
+        "local_tz": "America/New_York"
     }
 ]
