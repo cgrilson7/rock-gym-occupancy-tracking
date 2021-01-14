@@ -35,8 +35,6 @@ ui <- fluidPage(
                 label = "Choose Gym:",
                 choices = gym_choices,
                 selected = NULL),
-            # verbatimTextOutput("selected_gym_id"),
-            # verbatimTextOutput("selected_wday"),
             h1("Average Headcount by Hour, by Day of Week:"),
             radioGroupButtons(
                 "new_wday_select",
@@ -94,9 +92,9 @@ server <- function(input, output) {
 
         selected_gym_counter_history() %>%
             ggplot(aes(x = accessed_at_local, y = pct_of_capacity)) +
-            # geom_line(size = 5, lineend="round") +
-            # scale_color_viridis_c(option = 'inferno') +
-            geom_area(fill = "#07bab1") +
+            geom_line(color = "#07bab1") +
+            geom_point(color = "#07bab1") +
+            # geom_area(fill = "#07bab1") +
             xlab('Date') +
             scale_x_datetime(limits = c(latest_accessed_at_local - days(n_days_back), latest_accessed_at_local), date_labels = '%b %d, %H%p') +
             ylab('Percent of Capacity') +
@@ -106,6 +104,7 @@ server <- function(input, output) {
     })
 
     output$average_occupancy_on_day <- renderPlot({
+
         selected_gym_counter_history_on_wday() %>%
             group_by(
                 hour_of_day = hour(accessed_at_local),
@@ -120,12 +119,9 @@ server <- function(input, output) {
                 time_of_day = ymd_hm(glue("1993-12-07 {time_of_day_str}"))
             ) %>%
             ggplot(aes(x = time_of_day, y = mean_pct_of_capacity)) +
-            # geom_line(size = 5, lineend="round") +
-            # scale_color_viridis_c(option = 'inferno') +
-            # scale_color_brewer(palette = "RdYlGn") +
             geom_area(fill = "#07bab1") +
             xlab('Time') +
-            scale_x_datetime(date_labels = "%H:%M", breaks = '30 min') +
+            scale_x_datetime(date_labels = "%H:%M", breaks = '1 hour') +
             ylab('Percent of Capacity') +
             scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
             theme_minimal()
