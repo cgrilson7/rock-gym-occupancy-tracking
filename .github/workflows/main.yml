@@ -3,7 +3,7 @@ name: main
 on: 
    push:
    schedule:
-      - cron: '*/10 * * * *'
+      - cron: '6,16,26,36,46,56 * * * *'
 
 jobs:
    build:
@@ -16,17 +16,16 @@ jobs:
         with:
           python-version: 3.8
       - name: install dependencies
-        run: |
+        run: |-
          pip install requests
          pip install BeautifulSoup4
-      - name: pull changes
-        run: git pull
       - name: execute script
         run: python scrape-counters.py
       - name: commit changes
-        run: |
+        run: |-
             git config --global user.name 'Colin G. Wilson'
             git config --global user.email 'colingwilson7@gmail.com'
             git add --all
-            git commit -am "Automated"
+            timestamp=$(date -u)
+            git commit -am "Automated - ${timestamp}" || exit 0
             git push
