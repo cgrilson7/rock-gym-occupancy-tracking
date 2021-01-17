@@ -29,7 +29,7 @@ def scrape_counter(gym_id):
 
     return(out)
 
-with open("gyms.json", "r") as read_file:
+with open("rgp_gyms.json", "r") as read_file:
     data = json.load(read_file)
 
 results = []
@@ -38,10 +38,10 @@ for gym in data:
     results.append(current_scrape)
     time.sleep(2)
 
-with open("gym_counter_results.json") as data_file:
+with open("rgp_counter_results.json") as data_file:
     past_results = json.load(data_file)
 
 results = past_results + results
 
-with open('gym_counter_results.json', 'w') as outfile:
+with open('rgp_counter_results.json', 'w') as outfile:
     json.dump(results, outfile, indent=4)

@@ -20,7 +20,7 @@ jobs:
          pip install requests
          pip install BeautifulSoup4
       - name: execute script
-        run: python scrape-counters.py
+        run: python scrape_rgp_counters.py
       - name: commit changes
         run: |-
             git config --global user.name 'Colin G. Wilson'
