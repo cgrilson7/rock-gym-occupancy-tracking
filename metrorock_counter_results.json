@@ -23,18 +23,18 @@
     },
     {
       "store_slug": "metrorock",
-      "counter_slug": "metrorock-everett",
-      "counter_name": "MetroRock Everett",
-      "current_count": 24,
-      "max_capacity": 97
-    },
-    {
-      "store_slug": "metrorock",
       "counter_slug": "metrorock-newburyport",
       "counter_name": "MetroRock Newburyport",
       "current_count": 18,
       "max_capacity": 47
+    },
+    {
+      "store_slug": "metrorock",
+      "counter_slug": "metrorock-everett",
+      "counter_name": "MetroRock Everett",
+      "current_count": 20,
+      "max_capacity": 97
     }
   ],
-  "timestamp": "Sat Feb  6 17:36:05 UTC 2021"
+  "timestamp": "Sat Feb  6 17:48:03 UTC 2021"
 }
