@@ -2,6 +2,13 @@
   "counters": [
     {
       "store_slug": "metrorock",
+      "counter_slug": "metrorock-everett",
+      "counter_name": "MetroRock Everett",
+      "current_count": 23,
+      "max_capacity": 97
+    },
+    {
+      "store_slug": "metrorock",
       "counter_slug": "metrorock-essex",
       "counter_name": "MetroRock Essex",
       "current_count": 2,
@@ -9,16 +16,9 @@
     },
     {
       "store_slug": "metrorock",
-      "counter_slug": "metrorock-everett",
-      "counter_name": "MetroRock Everett",
-      "current_count": 33,
-      "max_capacity": 97
-    },
-    {
-      "store_slug": "metrorock",
       "counter_slug": "metrorock-bushwick",
       "counter_name": "MetroRock Bushwick",
-      "current_count": 51,
+      "current_count": 47,
       "max_capacity": 80
     },
     {
@@ -32,9 +32,9 @@
       "store_slug": "metrorock",
       "counter_slug": "metrorock-newburyport",
       "counter_name": "MetroRock Newburyport",
-      "current_count": 14,
+      "current_count": 17,
       "max_capacity": 47
     }
   ],
-  "timestamp": "Sun Feb  7 18:57:40 UTC 2021"
+  "timestamp": "Sun Feb  7 19:22:53 UTC 2021"
 }
