@@ -12622,5 +12622,17 @@
         "accessed_at": 1612892453.4993765,
         "count": 12,
         "capacity": 50
+    },
+    {
+        "gym_id": "e758e0e391200c87c7bea411f033aab2",
+        "accessed_at": 1612893145.4189801,
+        "count": 0,
+        "capacity": 40
+    },
+    {
+        "gym_id": "8490bc5e774d0034d09420df23a224b9",
+        "accessed_at": 1612893147.8057246,
+        "count": 9,
+        "capacity": 50
     }
 ]
