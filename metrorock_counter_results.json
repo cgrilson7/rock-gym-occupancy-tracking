@@ -18,14 +18,14 @@
       "store_slug": "metrorock",
       "counter_slug": "metrorock-everett",
       "counter_name": "MetroRock Everett",
-      "current_count": 7,
+      "current_count": 12,
       "max_capacity": 154
     },
     {
       "store_slug": "metrorock",
       "counter_slug": "metrorock-bushwick",
       "counter_name": "MetroRock Bushwick",
-      "current_count": 26,
+      "current_count": 22,
       "max_capacity": 80
     },
     {
@@ -36,5 +36,5 @@
       "max_capacity": 75
     }
   ],
-  "timestamp": "Fri Feb 12 15:29:41 UTC 2021"
+  "timestamp": "Fri Feb 12 15:46:38 UTC 2021"
 }
