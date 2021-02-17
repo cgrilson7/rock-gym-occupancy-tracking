@@ -16,16 +16,16 @@
     },
     {
       "store_slug": "metrorock",
-      "counter_slug": "metrorock-essex",
-      "counter_name": "MetroRock Essex",
+      "counter_slug": "metrorock-newburyport",
+      "counter_name": "MetroRock Newburyport",
       "current_count": 7,
       "max_capacity": 75
     },
     {
       "store_slug": "metrorock",
-      "counter_slug": "metrorock-newburyport",
-      "counter_name": "MetroRock Newburyport",
-      "current_count": 10,
+      "counter_slug": "metrorock-essex",
+      "counter_name": "MetroRock Essex",
+      "current_count": 7,
       "max_capacity": 75
     },
     {
@@ -36,5 +36,5 @@
       "max_capacity": 154
     }
   ],
-  "timestamp": "Wed Feb 17 20:43:30 UTC 2021"
+  "timestamp": "Wed Feb 17 20:57:16 UTC 2021"
 }
