@@ -11,7 +11,7 @@
       "store_slug": "metrorock",
       "counter_slug": "metrorock-everett",
       "counter_name": "MetroRock Everett",
-      "current_count": 7,
+      "current_count": 5,
       "max_capacity": 97
     },
     {
@@ -36,5 +36,5 @@
       "max_capacity": 75
     }
   ],
-  "timestamp": "Tue Mar  2 15:26:12 UTC 2021"
+  "timestamp": "Tue Mar  2 15:41:45 UTC 2021"
 }
