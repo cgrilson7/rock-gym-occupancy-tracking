@@ -16,6 +16,13 @@
     },
     {
       "store_slug": "metrorock",
+      "counter_slug": "metrorock-newburyport",
+      "counter_name": "MetroRock Newburyport",
+      "current_count": 11,
+      "max_capacity": 75
+    },
+    {
+      "store_slug": "metrorock",
       "counter_slug": "metrorock-littleton",
       "counter_name": "MetroRock Littleton",
       "current_count": 0,
@@ -27,14 +34,7 @@
       "counter_name": "MetroRock Everett",
       "current_count": 7,
       "max_capacity": 97
-    },
-    {
-      "store_slug": "metrorock",
-      "counter_slug": "metrorock-newburyport",
-      "counter_name": "MetroRock Newburyport",
-      "current_count": 6,
-      "max_capacity": 75
     }
   ],
-  "timestamp": "Mon Mar  8 20:31:53 UTC 2021"
+  "timestamp": "Mon Mar  8 20:45:18 UTC 2021"
 }
