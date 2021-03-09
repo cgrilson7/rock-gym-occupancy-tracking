@@ -25,7 +25,7 @@
       "store_slug": "metrorock",
       "counter_slug": "metrorock-littleton",
       "counter_name": "MetroRock Littleton",
-      "current_count": 32,
+      "current_count": 33,
       "max_capacity": 93
     },
     {
@@ -36,5 +36,5 @@
       "max_capacity": 75
     }
   ],
-  "timestamp": "Tue Mar  9 22:53:24 UTC 2021"
+  "timestamp": "Tue Mar  9 22:58:36 UTC 2021"
 }
