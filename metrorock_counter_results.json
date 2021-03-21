@@ -9,13 +9,6 @@
     },
     {
       "store_slug": "metrorock",
-      "counter_slug": "metrorock-littleton",
-      "counter_name": "MetroRock Littleton",
-      "current_count": 25,
-      "max_capacity": 93
-    },
-    {
-      "store_slug": "metrorock",
       "counter_slug": "metrorock-essex",
       "counter_name": "MetroRock Essex",
       "current_count": 12,
@@ -23,9 +16,16 @@
     },
     {
       "store_slug": "metrorock",
+      "counter_slug": "metrorock-littleton",
+      "counter_name": "MetroRock Littleton",
+      "current_count": 27,
+      "max_capacity": 93
+    },
+    {
+      "store_slug": "metrorock",
       "counter_slug": "metrorock-everett",
       "counter_name": "MetroRock Everett",
-      "current_count": 25,
+      "current_count": 28,
       "max_capacity": 97
     },
     {
@@ -36,5 +36,5 @@
       "max_capacity": 75
     }
   ],
-  "timestamp": "Sun Mar 21 19:45:24 UTC 2021"
+  "timestamp": "Sun Mar 21 19:57:02 UTC 2021"
 }
