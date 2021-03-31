@@ -11,14 +11,14 @@
       "store_slug": "metrorock",
       "counter_slug": "metrorock-essex",
       "counter_name": "MetroRock Essex",
-      "current_count": 7,
+      "current_count": 5,
       "max_capacity": 75
     },
     {
       "store_slug": "metrorock",
       "counter_slug": "metrorock-bushwick",
       "counter_name": "MetroRock Bushwick",
-      "current_count": 45,
+      "current_count": 3,
       "max_capacity": 80
     },
     {
@@ -36,5 +36,5 @@
       "max_capacity": 75
     }
   ],
-  "timestamp": "Wed Mar 31 11:57:06 UTC 2021"
+  "timestamp": "Wed Mar 31 12:49:05 UTC 2021"
 }
