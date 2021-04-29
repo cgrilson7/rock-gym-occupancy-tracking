@@ -4,14 +4,14 @@
       "store_slug": "metrorock",
       "counter_slug": "metrorock-littleton",
       "counter_name": "MetroRock Littleton",
-      "current_count": 0,
+      "current_count": 7,
       "max_capacity": 93
     },
     {
       "store_slug": "metrorock",
       "counter_slug": "metrorock-everett",
       "counter_name": "MetroRock Everett",
-      "current_count": 11,
+      "current_count": 9,
       "max_capacity": 157
     },
     {
@@ -36,5 +36,5 @@
       "max_capacity": 75
     }
   ],
-  "timestamp": "Thu Apr 29 11:57:07 UTC 2021"
+  "timestamp": "Thu Apr 29 12:50:06 UTC 2021"
 }
