@@ -16,13 +16,6 @@
     },
     {
       "store_slug": "metrorock",
-      "counter_slug": "metrorock-littleton",
-      "counter_name": "MetroRock Littleton",
-      "current_count": 7,
-      "max_capacity": 93
-    },
-    {
-      "store_slug": "metrorock",
       "counter_slug": "metrorock-bushwick",
       "counter_name": "MetroRock Bushwick",
       "current_count": 5,
@@ -39,9 +32,16 @@
       "store_slug": "metrorock",
       "counter_slug": "metrorock-everett",
       "counter_name": "MetroRock Everett",
-      "current_count": 9,
+      "current_count": 11,
       "max_capacity": 157
+    },
+    {
+      "store_slug": "metrorock",
+      "counter_slug": "metrorock-littleton",
+      "counter_name": "MetroRock Littleton",
+      "current_count": 8,
+      "max_capacity": 93
     }
   ],
-  "timestamp": "Mon May 17 17:09:36 UTC 2021"
+  "timestamp": "Mon May 17 18:00:32 UTC 2021"
 }
