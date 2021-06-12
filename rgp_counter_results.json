@@ -63910,5 +63910,17 @@
         "accessed_at": 1623532985.8972156,
         "count": 13,
         "capacity": 150
+    },
+    {
+        "gym_id": "e758e0e391200c87c7bea411f033aab2",
+        "accessed_at": 1623533867.9104397,
+        "count": 22,
+        "capacity": 70
+    },
+    {
+        "gym_id": "8490bc5e774d0034d09420df23a224b9",
+        "accessed_at": 1623533870.3728127,
+        "count": 12,
+        "capacity": 150
     }
 ]
