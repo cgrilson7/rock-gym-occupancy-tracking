@@ -4,14 +4,14 @@
       "store_slug": "metrorock",
       "counter_slug": "metrorock-williamsburg",
       "counter_name": "MetroRock Williamsburg",
-      "current_count": 5,
+      "current_count": 2,
       "max_capacity": 100
     },
     {
       "store_slug": "metrorock",
       "counter_slug": "metrorock-littleton",
       "counter_name": "MetroRock Littleton",
-      "current_count": 0,
+      "current_count": 4,
       "max_capacity": 93
     },
     {
@@ -43,5 +43,5 @@
       "max_capacity": 75
     }
   ],
-  "timestamp": "Sat Jun 19 12:49:23 UTC 2021"
+  "timestamp": "Sat Jun 19 13:13:37 UTC 2021"
 }
