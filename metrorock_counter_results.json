@@ -2,16 +2,16 @@
   "counters": [
     {
       "store_slug": "metrorock",
-      "counter_slug": "metrorock-bushwick",
-      "counter_name": "MetroRock Bushwick",
-      "current_count": 28,
-      "max_capacity": 120
+      "counter_slug": "metrorock-williamsburg",
+      "counter_name": "MetroRock Williamsburg",
+      "current_count": 2,
+      "max_capacity": 100
     },
     {
       "store_slug": "metrorock",
       "counter_slug": "metrorock-littleton",
       "counter_name": "MetroRock Littleton",
-      "current_count": 30,
+      "current_count": 31,
       "max_capacity": 93
     },
     {
@@ -23,17 +23,17 @@
     },
     {
       "store_slug": "metrorock",
-      "counter_slug": "metrorock-williamsburg",
-      "counter_name": "MetroRock Williamsburg",
-      "current_count": 7,
-      "max_capacity": 100
-    },
-    {
-      "store_slug": "metrorock",
       "counter_slug": "metrorock-essex",
       "counter_name": "MetroRock Essex",
       "current_count": 20,
       "max_capacity": 75
+    },
+    {
+      "store_slug": "metrorock",
+      "counter_slug": "metrorock-bushwick",
+      "counter_name": "MetroRock Bushwick",
+      "current_count": 35,
+      "max_capacity": 120
     },
     {
       "store_slug": "metrorock",
@@ -43,5 +43,5 @@
       "max_capacity": 157
     }
   ],
-  "timestamp": "Sat Jun 19 16:00:56 UTC 2021"
+  "timestamp": "Sat Jun 19 16:54:03 UTC 2021"
 }
