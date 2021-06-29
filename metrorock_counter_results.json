@@ -18,7 +18,7 @@
       "store_slug": "metrorock",
       "counter_slug": "metrorock-bushwick",
       "counter_name": "MetroRock Bushwick",
-      "current_count": 22,
+      "current_count": 25,
       "max_capacity": 120
     },
     {
@@ -43,5 +43,5 @@
       "max_capacity": 93
     }
   ],
-  "timestamp": "Tue Jun 29 13:31:29 UTC 2021"
+  "timestamp": "Tue Jun 29 13:42:13 UTC 2021"
 }
