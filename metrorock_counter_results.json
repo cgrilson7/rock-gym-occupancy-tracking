@@ -23,6 +23,13 @@
     },
     {
       "store_slug": "metrorock",
+      "counter_slug": "metrorock-williamsburg",
+      "counter_name": "MetroRock Williamsburg",
+      "current_count": 0,
+      "max_capacity": 100
+    },
+    {
+      "store_slug": "metrorock",
       "counter_slug": "metrorock-newburyport",
       "counter_name": "MetroRock Newburyport",
       "current_count": 0,
@@ -34,14 +41,7 @@
       "counter_name": "MetroRock Littleton",
       "current_count": 20,
       "max_capacity": 93
-    },
-    {
-      "store_slug": "metrorock",
-      "counter_slug": "metrorock-williamsburg",
-      "counter_name": "MetroRock Williamsburg",
-      "current_count": 4,
-      "max_capacity": 100
     }
   ],
-  "timestamp": "Sun Jul  4 19:57:43 UTC 2021"
+  "timestamp": "Sun Jul  4 20:26:36 UTC 2021"
 }
