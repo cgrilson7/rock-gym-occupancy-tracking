@@ -32,7 +32,7 @@
       "store_slug": "metrorock",
       "counter_slug": "metrorock-williamsburg",
       "counter_name": "MetroRock Williamsburg",
-      "current_count": 10,
+      "current_count": 8,
       "max_capacity": 100
     },
     {
@@ -43,5 +43,5 @@
       "max_capacity": 93
     }
   ],
-  "timestamp": "Mon Jul  5 21:41:58 UTC 2021"
+  "timestamp": "Mon Jul  5 21:57:53 UTC 2021"
 }
