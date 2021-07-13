@@ -80038,5 +80038,17 @@
         "accessed_at": 1626200831.3005815,
         "count": 64,
         "capacity": 150
+    },
+    {
+        "gym_id": "e758e0e391200c87c7bea411f033aab2",
+        "accessed_at": 1626202446.8555682,
+        "count": 35,
+        "capacity": 70
+    },
+    {
+        "gym_id": "8490bc5e774d0034d09420df23a224b9",
+        "accessed_at": 1626202449.0127292,
+        "count": 71,
+        "capacity": 150
     }
 ]
