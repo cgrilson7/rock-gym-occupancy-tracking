@@ -91930,5 +91930,17 @@
         "accessed_at": 1628104975.5198107,
         "count": 38,
         "capacity": 150
+    },
+    {
+        "gym_id": "e758e0e391200c87c7bea411f033aab2",
+        "accessed_at": 1628105521.9860744,
+        "count": 10,
+        "capacity": 85
+    },
+    {
+        "gym_id": "8490bc5e774d0034d09420df23a224b9",
+        "accessed_at": 1628105524.3143802,
+        "count": 39,
+        "capacity": 150
     }
 ]
