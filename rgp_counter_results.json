@@ -99610,5 +99610,17 @@
         "accessed_at": 1629325310.719605,
         "count": 55,
         "capacity": 150
+    },
+    {
+        "gym_id": "e758e0e391200c87c7bea411f033aab2",
+        "accessed_at": 1629326054.088164,
+        "count": 61,
+        "capacity": 85
+    },
+    {
+        "gym_id": "8490bc5e774d0034d09420df23a224b9",
+        "accessed_at": 1629326056.2947166,
+        "count": 51,
+        "capacity": 150
     }
 ]
