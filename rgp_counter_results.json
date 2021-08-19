@@ -99742,5 +99742,17 @@
         "accessed_at": 1629364939.1625278,
         "count": 0,
         "capacity": 150
+    },
+    {
+        "gym_id": "e758e0e391200c87c7bea411f033aab2",
+        "accessed_at": 1629365705.318418,
+        "count": 0,
+        "capacity": 85
+    },
+    {
+        "gym_id": "8490bc5e774d0034d09420df23a224b9",
+        "accessed_at": 1629365707.5436456,
+        "count": 0,
+        "capacity": 150
     }
 ]
